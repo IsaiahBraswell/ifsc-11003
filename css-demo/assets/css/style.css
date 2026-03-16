@@ -126,6 +126,7 @@ nav.primary ul li a:hover{
   flex-direction:row;
   justify-content:space-between;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 figure{
