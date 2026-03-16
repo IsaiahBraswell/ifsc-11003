@@ -8,11 +8,22 @@ html {
   box-sizing: inherit;
 }
 
+
+/* --------------Responsive Images ---------------- */
+
+img{
+  max-width:100%;
+} 
 /* --------------Utility Classes ---------------- */
+
 .container{
-  max-width: 960px;
-  width:80vw
-  margin:20px auto;
+  max-width:960px;
+  width:80vw;
+  margin: 20px auto;
+}
+
+
+
 }
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -106,18 +117,78 @@ nav.primary ul li a:hover{
 }
 
 
+#content p{
+  line-height:1.6;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap: 20px;
+}
+
+figure{
+  margin:0;
+  
+}
+
+#blog article.post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  padding: 10px;
+  font-size: .8rem;
+  flex:1;
+
+}
+
+article.post time, artical.post figcaption{
+  text-transform: uppercase;
+  font: size 0.6rem;
+}
+
+article.post a{
+  color: aquamarine;
+}
+
+aside[aria-label="sidebar"]{
+  color: cyan;
+  padding: 40px 0;
+  color: #ffffff;
+}
+
+aside .container{
+display: flex;
+flex-direction: row;
+justifify content: space evenly;
+gap: 40px;
+}
+
+aside .container a{
+  color:#ffffff;
+  display:block;
+  text aline:right;
+  margin: 10px;
+}
+
+aside footer{
+display: none;
+}
+
+footer .primary{
+  background-color: aquamarine;
+  padding:3px;
+  color:#ffffff;
+  text-align: center;
+}
+
+  h2#recent post{
+    flex:0 0 100%;
+    flex-wrap: wrap;
+  
+  }
 
 
-
-
-
-
-
-
-
-
-
-
+}
 /* Media Queries */
 @media screen and (max-width:600px){
 
