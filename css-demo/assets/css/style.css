@@ -181,14 +181,13 @@ footer .primary{
   text-align: center;
 }
 
-  h2#recent post{
+  #recent post{
     flex:0 0 100%;
     flex-wrap: wrap;
   
   }
 
 
-}
 /* Media Queries */
 @media screen and (max-width:600px){
 
