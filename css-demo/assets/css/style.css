@@ -267,6 +267,53 @@ footer.primary {
 }
 
 
+#practice ol {
+  list-style-type: upper-roman;
+  margin-left: 1.5rem;
+}
+
+
+#practice ul ul {
+  color: #b4adad; 
+}
+
+
+#practice dt {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+
+dd + dt {
+  margin-top: 24px;
+  color: #b4adad;
+}
+
+
+blockquote {
+  background-color: #1e2a38;
+  border: 3px solid #9aa5b1;
+  color: #f8f8f8;
+  padding: 32px;
+  border-radius: 12px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+
+blockquote cite {
+  display: block;
+  margin-top: 16px;
+  text-align: right;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+
+#practice dd {
+  margin-left: 0;
+  padding-left: 0.5rem;
+}
+
 
 
 
