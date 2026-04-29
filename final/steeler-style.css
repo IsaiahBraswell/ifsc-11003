@@ -81,9 +81,8 @@ nav a:hover {
 
 #articles h2 {
   font-family: 'Goldman', sans-serif;
-  margin-bottom: 2rem;   /* pushes cards down */
-  display: block;        /* ensures heading sits alone */
-}
+  margin-bottom: 2rem;  
+  display: block;       
 
 
 .post {
